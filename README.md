@@ -1,6 +1,18 @@
-Summary:
+**Kaggle site**
 
-In the Microsoft Malware Kaggle competition, the data instances represent individual computers that may or may not be infected by malware.  The HasDetections target variable assesses the presence or absence of malware, as judged by Microsoft.  The goal of the competition is to use 82 features to predict the target variable.  Some examples of the features include:
+Competition: https://www.kaggle.com/c/microsoft-malware-prediction/overview
+
+**Kaggle kernels:**
+
+Fit: https://www.kaggle.com/vonkorff/jvk-ms-malware-fit
+
+Predict: https://www.kaggle.com/vonkorff/jv-ms-malware-predict
+
+**Summary:**
+
+I entered my first Kaggle competition: the Microsoft Malware competition.  My team name was JVKMBR.  (JVK is me; MBR is my collaborator.)  Our private roc-auc score was 0.59490 or rank 1969 out of 2426.  The top score was 0.67585.
+
+In this competition, the data instances represent individual computers that may or may not be infected by malware.  The HasDetections target variable assesses the presence or absence of malware, as judged by Microsoft.  The goal of the competition is to use 82 features to predict the target variable.  Some examples of the features include:
 
 * AVProductsEnabled (are antivirus products enabled?)
 * Firewall (is windows firewall enabled?)
